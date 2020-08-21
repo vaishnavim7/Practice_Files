@@ -1,0 +1,12 @@
+{
+    "Name" : "Vaishnavi",
+    "Age" : 23,
+    "Education" :
+        [
+            {
+                "SSC" : ["Maharastra State Board", 71],
+                "Diploma" : ["MSBTE", 69],
+                "Engineering" : ["RTMNU", 7.27]
+            }
+        ]
+}

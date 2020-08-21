@@ -1,0 +1,28 @@
+{
+    "F_Member" :
+    {
+        "Person1" : [
+            {
+                "Name": "Sunil",
+                "Age" : 52,
+                "Role" : "Father"
+            },
+            {
+                "Name": "Madhuri",
+                "Age" : 45,
+                "Role" : "Mother"
+            },
+            {
+                "Name": "Venkatesh",
+                "Age" : 27,
+                "Role" : "Son"
+            },
+            {
+                "Name": "Vaishnavi",
+                "Age" : 23,
+                "Role" : "Daughter"
+            }
+        ]
+    }
+
+}
