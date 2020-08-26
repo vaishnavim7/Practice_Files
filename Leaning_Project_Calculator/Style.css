@@ -1,0 +1,97 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: Black;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 90vh;
+    margin: 0px auto;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.calc{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: silver;
+    border-radius: 5px;
+}
+#result{
+    height: 20vh;
+}
+#history{
+    text-align: right;
+    height: 5vh;
+    margin: 0 20px;
+    padding: 10px 0px;
+    font-size: 24px;
+    color: blue;
+
+}
+#output{
+    text-align: right;
+    height: 5vh;
+    margin: 0 20px;
+    padding: 10px 0px;
+    font-size: 30px;
+    color: green;
+}
+
+#keyboard{
+    height: 30vh;
+}
+
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 10px 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.number, .empty{
+    background-color: silver;
+    
+}
+
+.operator:active, .number:active{
+    font-size: 14px;
+}
+
+button:nth-child(4)
+{
+    font-size: 20px;
+    background-color: plum;
+}
+button:nth-child(8)
+{
+    font-size: 20px;
+    background-color: palegreen;
+}
+button:nth-child(12)
+{
+    font-size: 20px;
+    background-color: teal;
+}
+button:nth-child(16)
+{
+    font-size: 20px;
+    background-color: greenyellow;
+}
+button:nth-child(20)
+{
+    font-size: 20px;
+    background-color: aqua;
+}
